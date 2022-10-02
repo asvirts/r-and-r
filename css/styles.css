@@ -64,6 +64,23 @@
   --bs-body-bg: #fff;
 }
 
+/* R&R Colors */
+.bg-rr-blue {
+  background-color: #1e3a8a
+}
+
+.rr-blue {
+  color: #2c54c9
+}
+
+.bg-rr-yellow {
+  background-color: #fecc03
+}
+
+.rr-yellow {
+  color: #fecc03
+}
+
 *,
 *::before,
 *::after {
@@ -3206,6 +3223,36 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
+}
+
+.btn-yellow {
+  color: #000;
+  background-color: #fecc03;
+  border-color: #fecc03;
+}
+.btn-yellow:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+.btn-check:focus + .btn-yellow, .btn-yellow:focus {
+  color: #000;
+  background-color: #fecc03;
+  border-color: #fecc03;
+  box-shadow: 0 0 0 0.25rem rgba(211, 212, 213, 0.5);
+}
+.btn-check:checked + .btn-yellow, .btn-check:active + .btn-yellow, .btn-yellow:active, .btn-yellow.active, .show > .btn-yellow.dropdown-toggle {
+  color: #000;
+  background-color: #fecc03;
+  border-color: #fecc03;
+}
+.btn-check:checked + .btn-yellow:focus, .btn-check:active + .btn-yellow:focus, .btn-yellow:active:focus, .btn-yellow.active:focus, .show > .btn-yellow.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(211, 212, 213, 0.5);
+}
+.btn-yellow:disabled, .btn-yellow.disabled {
+  color: #000;
+  background-color: #fecc03;
+  border-color: #fecc03;
 }
 
 .btn-light {
