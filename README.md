@@ -1,3 +1,3 @@
 R&R Window Tinting
 
-<a href="https://asvirts.github.io/rr-window-tinting/" target="_blank">Live Preview</a>
+<a href="https://rrwindowtinting.com/" target="_blank">Live Preview</a>
